@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import {BookList, History, WelcomePage} from "./components/Book";
+import {BookList, Science ,History,WelcomePage} from "./components/Book";
 
 
 const router = createBrowserRouter([
@@ -9,11 +9,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/history",
-    element:<BookList/>
+    element:<History/>
   },
   {
     path: "/science",
-    element:<BookList/>
+    element:<Science/>
   }
 ]);
 
